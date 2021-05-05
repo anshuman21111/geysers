@@ -4,7 +4,7 @@ This folder was used to create the collation. The merge_data.py file was used to
 # netrd_methods Folder
 This folder has the code used for the netrd methods. At the beginning of each file there is a data formatting step that puts the collation in a format that is readable by the netrd method. In this step we can manually change the time interval of the data and options of the specific netrd method we are using. This folder also includes a template for netrd methods. There is also a template for splitting up the data, running the netrd method on each piece, and taking the mean of all the values, called split_method_template.py.
 
-# Scripts Folder
+# Shell Scripts Folder
 This folder has the script files we used to run on UMD's Deepthought2 cluster. The beginning of the file has the amount of the computer's resources we wanted to use when running the methods, and also messages to indicate which method had started.
 
 # tigramite_methods Folder
